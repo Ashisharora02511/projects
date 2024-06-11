@@ -26,8 +26,7 @@ public class Contact {
 	private String phone;
 	private String image;
 	private String description;
-	//@ManyToOne(mangedBy="contac")
-
+	@ManyToOne
 	private User users;
 	
 	
